@@ -30,7 +30,7 @@ app.use(hpp());
 
 // route
 app.get("/", (req: Request, res: Response) =>
-  res.redirect("https://documenter.getpostman.com/view/8279131/2sA3JGe3aS")
+  res.redirect("https://documenter.getpostman.com/view/8279131/2sA3dxDreT")
 );
 app.use("/api/v1", router);
 app.use((req: Request, res: Response, next: NextFunction) => {
