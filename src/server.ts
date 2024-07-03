@@ -25,7 +25,7 @@ app.use(helmet());
 app.use(cors());
 app.use(limiter);
 app.use(express.json());
-app.use(ExpressMongoSanitize);
+app.use(ExpressMongoSanitize());  
 app.use(hpp());
 
 // route

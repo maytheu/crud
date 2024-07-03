@@ -82,3 +82,7 @@ export const wrongCredentials = () => {
 export const notFound = (item: string) => {
   return new AppError(`${item} cannot be found`, 404);
 };
+
+export const unauthenticatedError = () => {
+  return new AppError("email/password not found", 401);
+};
